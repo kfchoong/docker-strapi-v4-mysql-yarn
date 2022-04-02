@@ -2,7 +2,7 @@ version: "3"
 services:
   strapi:
     container_name: ${APP_NAME}
-    image: test
+    image: ounch/strapi-v4-mysql-yarn
     restart: unless-stopped
     environment:
       DATABASE_CLIENT: mysql
